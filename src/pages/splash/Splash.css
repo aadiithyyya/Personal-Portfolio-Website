@@ -1,0 +1,95 @@
+/* General Wrapper */
+.logo_wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensures no content overflow on small screens */
+}
+
+/* Full-Screen Animation Container */
+.screen {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  animation: grow 5.5s forwards;
+}
+
+/* Text Animation */
+.fade-reveal {
+  font-family: "Agustina Regular", sans-serif;
+  font-size: 5rem; /* Default text size for larger screens */
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  color: transparent; /* Initially transparent */
+  background-image: linear-gradient(to right, white 50%, transparent 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: fade-in-reveal 3s ease-in-out forwards;
+}
+
+/* Fade-in Reveal Animation */
+@keyframes fade-in-reveal {
+  0% {
+    color: transparent;
+    background-image: linear-gradient(to right, transparent 50%, white 50%);
+  }
+  100% {
+    color: white;
+    background-image: linear-gradient(to right, white 100%, white 100%);
+  }
+}
+
+/* Scaling Animation for the Splash Screen */
+@keyframes grow {
+  0% {
+    transform: scale(0);
+  }
+  10% {
+    transform: scale(1);
+    border-radius: 0%;
+    height: 100%;
+    width: 100%;
+  }
+  90% {
+    transform: scale(1);
+    border-radius: 0%;
+    height: 100%;
+    width: 100%;
+  }
+  100% {
+    transform: scale(0);
+    transform-origin: 50% 50%;
+    border-radius: 100%;
+  }
+}
+
+/* Media Queries for Mobile Screens */
+@media (max-width: 768px) {
+  .fade-reveal {
+    font-size: 3rem; /* Adjusted text size for mobile */
+    line-height: 1.2; /* Improves readability */
+    text-align: center; /* Centers text properly */
+  }
+
+  .logo_wrapper {
+    padding: 1rem; /* Adds spacing to prevent overflow */
+  }
+
+  .screen {
+    animation: grow 4s forwards; /* Slightly faster animation for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .fade-reveal {
+    font-size: 2.5rem; /* Further reduce text size for smaller screens */
+    line-height: 1.1;
+  }
+}

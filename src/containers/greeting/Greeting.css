@@ -1,0 +1,107 @@
+.greeting-main {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex; /* Default: side-by-side layout */
+  align-items: center; /* Vertically align text and image */
+  justify-content: space-between; /* Add space between text and image */
+  gap: 20px; /* Add spacing between text and image */
+  
+}
+
+.greeting-main > * {
+  flex: 1; /* Ensure text and image share available space equally */
+  margin-bottom: 30px;
+}
+
+.greeting-text {
+  
+  margin-top: 80px;
+  font-size: 70px;
+  line-height: 1.1;
+  font-family: "Google Sans Bold";
+}
+
+.greeting-nickname {
+  font-size: 30px;
+  line-height: 1.2;
+  font-family: "Google Sans Bold Italic";
+}
+
+.greeting-text-p {
+  font-size: 40px;
+  line-height: 1.5;
+  margin-right: 40px;
+  font-family: "Google Sans Medium";
+}
+
+.greeting-image-div > * {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Adjustments for smaller screens (Mobile) */
+@media (max-width: 768px) {
+  .greeting-main {
+    display: block; /* Stack text and image vertically */
+    text-align: center; /* Center-align content */
+  }
+
+  .greeting-text {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .greeting-nickname {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+
+  .greeting-text-p {
+    font-size: 16px;
+    margin-right: 0;
+  }
+
+  .greeting-image-div img {
+    width: 100%; /* Ensure image scales properly */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Adjustments for tablet horizontal view */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .greeting-main {
+    flex-direction: row; /* Keep text and image side by side */
+  }
+
+  .greeting-text {
+    font-size: 50px;
+  }
+
+  .greeting-text-p {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+
+  .greeting-image-div img {
+    width: 350px; /* Adjust image width */
+    height: auto;
+  }
+}
+
+/* Adjustments for tablet vertical view */
+@media (max-width: 1024px) and (orientation: portrait) {
+  .greeting-main {
+    display: flex;
+    flex-direction: column; /* Stack text and image vertically */
+  }
+
+  .greeting-text {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .greeting-image-div img {
+    width: 100%; /* Adjust image size */
+    height: auto;
+  }
+}

@@ -1,0 +1,25 @@
+.footer-div {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 16px;
+}
+
+.footer-link {
+  font-weight: bold;
+  color: #0077b5; /* LinkedIn blue */
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+  color: #005582; /* Darker LinkedIn blue */
+}
+
+.footer-copyright {
+  margin: 5px 0 0;
+  font-size: 14px;
+}

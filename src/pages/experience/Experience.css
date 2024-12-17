@@ -1,0 +1,235 @@
+/* General Page Styling */
+.experience-main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f8fbfe;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.experience-container {
+  margin: 0 auto;
+  padding: 40px 8%;
+  box-sizing: border-box;
+}
+
+/* Header Section */
+.experience-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  text-align: center;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+.experience-header-img {
+  flex: 1;
+  text-align: center;
+}
+
+.experience-header-text {
+  flex: 2;
+  text-align: left;
+}
+
+.experience-header-text h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #0d3b66;
+  margin-bottom: 10px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.experience-header-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #3d5a80;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.experience-header-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  animation: fadeIn 2.5s ease-in-out;
+}
+
+/* Section Styling */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #293241;
+  margin: 60px 0 20px;
+  text-align: center;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: #ee6c4d;
+  margin: 10px auto;
+  border-radius: 2px;
+  animation: slideIn 1s ease-in-out;
+}
+
+/* Experience Cards */
+.experience-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #ffffff 0%, #f1f4f9 100%);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  transform: translateY(10px);
+  animation: fadeInUp 1.2s ease-in-out forwards;
+  opacity: 0;
+}
+
+.experience-card:nth-child(odd) {
+  animation-delay: 0.2s;
+}
+
+.experience-card:nth-child(even) {
+  animation-delay: 0.4s;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.experience-icon {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.experience-icon img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.experience-icon img:hover {
+  transform: scale(1.1);
+}
+
+.experience-content {
+  flex-grow: 1;
+}
+
+.experience-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0d3b66;
+  margin-bottom: 5px;
+}
+
+.experience-company {
+  font-size: 1.1rem;
+  color: #3d5a80;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.experience-duration {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.experience-description {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+  text-align: justify;
+}
+
+/* Subtle Animations */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100px;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .experience-header {
+    flex-direction: column;
+  }
+
+  .experience-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .experience-icon img {
+    margin-bottom: 10px;
+  }
+
+  .experience-header-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .experience-header-text h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile View: Center the Logo */
+@media (max-width: 768px) {
+  .experience-icon {
+    text-align: center;
+    width: 100%; /* Full width to ensure centering */
+    margin-bottom: 10px; /* Adds space below the logo */
+  }
+
+  .experience-icon img {
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensures margin works */
+  }
+
+  .experience-card {
+    flex-direction: column; /* Stack content vertically */
+    text-align: center; /* Center text alignment */
+  }
+
+  .experience-title {
+    margin-top: 10px; /* Adds space after the logo */
+  }
+}
