@@ -14,17 +14,6 @@
   margin-bottom: 50px;
 }
 
-.projects-heading-img-div {
-  flex: 1;
-  text-align: center;
-}
-
-.projects-heading-img-div img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 15px;
-}
-
 .projects-heading-text-div {
   flex: 2;
   padding: 20px;
@@ -34,17 +23,14 @@
 .projects-heading-text {
   font-size: 42px;
   font-weight: 700;
-  color: #2c3e50;
-  margin-bottom: 20px; /* Add spacing below the heading */
+  margin-bottom: 20px;
 }
 
 .projects-header-detail-text {
   font-size: 18px;
-  line-height: 1.8; /* Increase line spacing for readability */
-  color: #555;
-  margin-top: 10px; /* Add spacing above the paragraph */
+  line-height: 1.8;
+  margin-top: 10px;
 }
-
 
 .events-list {
   display: flex;
@@ -66,8 +52,13 @@
   text-align: center;
 }
 
-.event-image img {
-  max-width: 100%;
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide img {
+  width: 100%;
   height: auto;
   border-radius: 10px;
 }
@@ -82,8 +73,6 @@
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 10px;
-  line-height: 1.2; /* Increase line spacing for readability */
-
 }
 
 .event-description {

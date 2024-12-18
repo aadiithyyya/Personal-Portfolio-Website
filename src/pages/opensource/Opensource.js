@@ -4,6 +4,7 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import { travelHeader, travelDiaries } from "../../portfolio.js";
+import ImageCarousel from "../../components/ImageCarousel/ImageCarousel";
 import "./Opensource.css";
 
 class Travel extends Component {
@@ -16,7 +17,6 @@ class Travel extends Component {
         <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
-              
               <div className="projects-heading-text-div">
                 <h1
                   className="projects-heading-text"
@@ -34,15 +34,11 @@ class Travel extends Component {
             </div>
           </Fade>
 
-          {/* Travel Diaries Section */}
           <div className="events-list">
             {travelDiaries.data.map((travel) => (
               <div key={travel.id} className="event-card">
                 <div className="event-image">
-                  <img
-                    src={require(`../../assets/images/${travel.image}`)}
-                    alt={travel.name}
-                  />
+                  <ImageCarousel images={travel.images} altText={travel.name} />
                 </div>
                 <div className="event-details">
                   <h2 className="event-title" style={{ color: theme.text }}>
