@@ -23,10 +23,10 @@ const greeting = {
   logo_name: "AshutoshHathidara",
   nickname: "Communication Specialist & Life Coach",
   subTitle:
-    "Enabling professionals to increase their impact through clear communication and interpersonal skills.",
-  resumeLink: "https://linkedin.com/in/aadiithyyya",
-  portfolio_repository: "https://linkedin.com/in/aadiithyyya",
-  githubProfile: "https://linkedin.com/in/aadiithyyya",
+    "Empowering professionals to enhance their influence through effective communication and strong interpersonal skills.",
+  resumeLink: "https://www.linkedin.com/in/deepika-s-1a1427177/",
+  portfolio_repository: "https://www.linkedin.com/in/deepika-s-1a1427177/",
+  githubProfile: "https://www.linkedin.com/in/deepika-s-1a1427177/",
 };
 
 const socialMediaLinks = [
@@ -39,37 +39,32 @@ const socialMediaLinks = [
 
   {
     name: "LinkedIn",
-    link: "https://linkedin.com/in/aadiithyyya",
+    link: "https://www.linkedin.com/in/deepika-s-1a1427177/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://linkedin.com/in/aadiithyyya",
+    link: "https://www.linkedin.com/in/deepika-s-1a1427177/",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:ramaadithya55@gmail.com",
+    link: "mailto::dr.deepika.atwork@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "X-Twitter",
-    link: "https://linkedin.com/in/aadiithyyya",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
+
   {
     name: "Facebook",
-    link: "https://linkedin.com/in/aadiithyyya",
+    link: "https://www.facebook.com/deepika.saravanan.7",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://linkedin.com/in/aadiithyyya",
+    link: "https://www.linkedin.com/in/deepika-s-1a1427177/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -267,7 +262,7 @@ const degrees = {
       logo_path: "madrasuniversity.png",
       duration: "1999",
       descriptions: [
-        "Introduced me to the world of literature and enhanced my knowledgebase on literary forms.",
+        "Introduced me to the world of literature and enhanced my knowledge base on literary forms.",
       ],
     },
   ],
@@ -474,7 +469,7 @@ const events = {
     },
     {
       id: "event5",
-      name: "At Officers Training Academy - Meenambakkam.",
+      name: "At Officers Training Academy - Meenambakkam",
       createdAt: "2023-11-10T00:00:00Z",
       description:
         "Participated in the parade at the Indian Army's Officers Training Academy (OTA), which prepares officers for the Short Service Commission (SSC). Could experience the presence and look of the tank that rolled across hostile terrain during the two world wars, a cannon that blitzed foes during the India-Pakistan conflict in 1965, and other weapons were on display at the vintage museum.A conversation with the Lieutenant unfolded the facts and history behind the collections at the museum.",
@@ -570,6 +565,20 @@ const events = {
       description: "",
       image: "event17.png",
     },
+    {
+      id: "event19",
+      name: "Launch Event of the 'Impress' magazine.",
+      createdAt: "2023-11-10T00:00:00Z",
+      description: "",
+      image: "impress.jpg",
+    },
+    {
+      id: "event20",
+      name: "At the University of Britto's, with Iman Annachi",
+      createdAt: "2023-11-10T00:00:00Z",
+      description: "",
+      image: "iman.jpg",
+    },
   ],
 };
 
@@ -585,83 +594,178 @@ const travelDiaries = {
   data: [
     {
       id: "travel1",
-      name: "March 2024 - A Spiritual Awakening at Isha",
+      name: "Isha - Spiritual Awakening and Retreats",
       createdAt: "2024-03-01T00:00:00Z",
       description:
-        "Celebrated my 45th birthday with an early morning dive in Chandra Kund at Isha. The day unfolded with 45 minutes in Chandra Kund, followed by chanting at Linga Bhairavi and meditative silence at Dhyana Linga. I was overcome with feelings of greater pleasure, knowledge, grace, and relief, a deeper awareness of who I am and how I relate to the cosmos. Since then, I have not looked back.",
-      images: ["event14.jpeg", "event13.jpeg"],
-    },
-    {
-      id: "travel2",
-      name: "April 2024 - Tiruvannamalai Girivalam Walk",
-      createdAt: "2024-04-14T00:00:00Z",
-      description:
-        "Traveled for the first time to Tiruvannamalai and embarked on the sacred Girivalam walk. On Tamil New Year's Day, I offered the first garland of the year to Arunachaleshwara at 4:30 AM. A divine acknowledgement from the higher power marked this unforgettable journey.",
-      images: ["event12.jpeg", "event13.jpeg"],
-    },
-    {
-      id: "travel3",
-      name: "May 2024 - Dhyana Linga Retreat at Isha",
-      createdAt: "2024-05-10T00:00:00Z",
-      description:
-        "Visited Isha again and immersed myself in over an hour of silent meditation at Dhyana Linga. The evening arthi filled the space with rejuvenating energy, leaving me mesmerized and spiritually charged.",
-      images: ["event12.jpeg", "event13.jpeg"],
+        "A spiritual awakening unfolded during an early morning dive in Chandra Kund at Isha in March 2024, marking my 45th birthday. The day included 45 minutes in Chandra Kund, chanting at Linga Bhairavi, and meditative silence in the Dhyana Linga, bringing immense joy and transformation. In May 2024, another visit to Isha immersed me in an hour of meditation at Dhyana Linga, rejuvenated by the mesmerizing evening arthi. June 2024 brought a week-long stay in Coimbatore, where I spent peaceful moments in the serene atmosphere of Dhyana Linga. July 2024 added an overnight stay at Isha, where the tranquil campus vibe drew me deeper into divine energy.",
+      images: [
+        "isha1.jpeg",
+        "isha2.jpeg",
+        "isha3.jpeg",
+        "isha4.jpeg",
+        "isha5.jpeg",
+      ],
     },
     {
       id: "travel4",
-      name: "June 2024 - Week-long Rejuvenation at Isha, Coimbatore",
-      createdAt: "2024-06-20T00:00:00Z",
-      description:
-        "Spent a week in Coimbatore, reconnecting with my spiritual core at Isha. Time spent in the serene atmosphere of Dhyana Linga recharged my mind and soul, leaving me with peace and stillness.",
-      images: ["event12.jpeg", "event13.jpeg"],
-    },
-    {
-      id: "travel5",
-      name: "July 2024 - Madurai Temples and ISHA Overnight Stay",
-      createdAt: "2024-07-15T00:00:00Z",
-      description:
-        "An unplanned trip led me to Madurai, where I had darshan at iconic temples like Meenakshi Amman, Rakkayi Amman, Pazhani, Azhagar Kovil, and Pazhamudir Cholai. Meenakshi's sparkling nose pin and divine aura left me speechless. The trip concluded with an overnight stay at Isha, soaking in the tranquil beauty of the campus.",
-      images: ["event12.jpeg", "event13.jpeg"],
-    },
-    {
-      id: "travel6",
-      name: "August 2024 - Kamakshi Darshan and Unexpected Journey to Kasi",
+      name: "Kasi - Divine Grace",
       createdAt: "2024-08-25T00:00:00Z",
       description:
-        "A dream turned reality with Kamakshi darshan at Kanchipuram, followed by visits to Mangadu Tapas Kamakshi and Tiruverkadu Karumari Amman. Towards month-end, an unscheduled trip took me to Kasi Viswanath for the 4 AM Jyothirlinga darshan and a blissful moment at Visalakshi's feet. Darshan of all three Devis - Meenakshi, Kamakshi, and Visalakshi - within days left my soul overwhelmed with divine grace.",
-      images: ["event12.jpeg", "event13.jpeg"],
+        "August 2024 marked a divine journey towards an unscheduled trip to Kasi Viswanath, which became a life-changing experience, with a 4 AM darshan of the Jyothirlinga and a blissful connection at Visalakshi’s feet. Witnessing the darshans of Meenakshi, Kamakshi, and Visalakshi within days overwhelmed my soul with divine grace.",
+      images: [
+        "kasi1.jpeg",
+        "kasi2.jpeg",
+        "kasi3.jpeg",
+        "kasi4.jpeg",
+        "kasi5.jpeg",
+        "kasi6.jpeg",
+        "kasi7.jpeg",
+        "kasi8.jpeg",
+        "kasi9.jpeg",
+        "kasi10.jpeg",
+      ],
     },
     {
       id: "travel7",
-      name: "September 2024 - Siruvapuri Murugan and Growing Divine Connection",
-      createdAt: "2024-09-05T00:00:00Z",
+      name: "Madhya Pradesh - Mahakaleshwar and Omkareshwar",
+      createdAt: "2024-12-15T00:00:00Z",
       description:
-        "A friend gifted me a divine vel, leading me to my first darshan at Siruvapuri Murugan on an unplanned Krithigai day. The experience of Raja Alankaram and Shiv Jaap deepened my desire to visit 12 Jyothirlingas and 51 Sakthi Peeth.",
-      images: ["event12.jpeg", "event13.jpeg"],
-    },
-    {
-      id: "travel8",
-      name: "October 2024 - Tiruthani and Pallur Varahi Temples",
-      createdAt: "2024-10-10T00:00:00Z",
-      description:
-        "On another unexpected Krithigai, I stood close to the divine Tiruthani Murugan during Raja Alankaram. Later, I visited Pallur Varahi, a Chola temple, offering a lotus garland while seated at the deity's feet. Within days, I returned to Tiruvannamalai for another Girivalam walk, fully immersed in Shiv Jaap.",
-      images: ["event12.jpeg", "event13.jpeg"],
+        "December 2024 concluded with a spiritual retreat to Madhya Pradesh, visiting Mahakaleshwar and Omkareshwar Jyothirlingas. The flowing Narmada, the Shipra arthi, and abhisekham filled my soul with spirituality. Darshan of Maa Bagalamukhi and Gatkalika, along with visits to historical temples and palaces, made this a once-in-a-lifetime experience, embracing the eternal divine presence.",
+      images: [
+        "mp1.jpeg",
+        "mp2.jpeg",
+        "mp3.jpeg",
+        "mp4.jpeg",
+        "mp5.jpeg",
+        "mp6.jpeg",
+        "mp7.jpeg",
+        "mp8.jpeg",
+        "mp9.jpeg",
+        "mp10.jpeg",
+        "mp11.jpeg",
+        "mp12.jpeg",
+        "mp13.jpeg",
+        "mp14.jpeg",
+        "mp15.jpeg",
+        "mp16.jpeg",
+        "mp17.jpeg",
+      ],
     },
     {
       id: "travel9",
-      name: "November 2024 - Murugan Krithigai and Chennai Temples",
-      createdAt: "2024-11-15T00:00:00Z",
+      name: "Kshemavanam, Karnataka - Wellness Retreat",
+      createdAt: "2024-10-20T00:00:00Z",
       description:
-        "Celebrated three consecutive Krithigai days at Kundrathur, Vadapalani, and Tiruporur Murugan temples, experiencing the first arthi in Thanga Kavacham. Also visited Chennai's Divya Desams, including Bakthavatsala Perumal, Neervanna Perumal, and Vaidhya Veeraraghava Perumal, along with Navagraha temples, where multiple Lingas embraced my soul as a Shivapriya.",
-      images: ["event12.jpeg", "event13.jpeg"],
+        "March 2024 brought a transformative wellness retreat to Kshemavanam, Karnataka. Nestled in a serene environment, I underwent rejuvenating naturopathy treatments that harmonized the body and mind. The retreat included coaching and counseling sessions on food, health, diet, mental well-being, and self-realization. The peaceful atmosphere and holistic approach left a lasting impact, inspiring a deeper commitment to personal wellness and spiritual growth.",
+      images: [
+        "kshmvn1.jpeg",
+        "kshmvn2.jpeg",
+        "kshmvn3.jpeg",
+        "kshmvn4.jpeg",
+        "kshmvn5.jpeg",
+        "kshmvn7.jpeg",
+        "kshmvn16.jpeg",
+      ],
     },
     {
-      id: "travel10",
-      name: "December 2024 - Mahakaleshwar and Omkareshwar Spiritual Retreat",
-      createdAt: "2024-12-15T00:00:00Z",
+      id: "travel2",
+      name: "Tiruvannamalai - Sacred Girivalam Walk",
+      createdAt: "2024-04-14T00:00:00Z",
       description:
-        "Concluded the year with a divine retreat to Madhya Pradesh's Mahakaleshwar and Omkareshwar Jyothirlingas. The Shipra Aarthi, abhisekham, and flowing Narmada river filled my soul with spirituality. Darshan of Maa Bagalamukhi and Gatkalika, along with visits to historical temples and palaces, made this a once-in-a-lifetime experience.",
-      images: ["event12.jpeg", "event13.jpeg"],
+        "In April 2024, I traveled for the first time to Tiruvannamalai and embarked on the sacred Girivalam walk, covering 14 kilometers while immersed in Shiv Jaap and divine energy. Offering the first garland of the year to Arunachaleshwara at 4:30 AM was a divine experience. In October 2024, I returned to Tiruvannamalai for another Girivalam walk, experiencing the divinity and immense peace of Arunachaleshwara's presence. Each step was a testament to the divine power guiding me.",
+      images: [
+        "thiruvml4.png",
+        "thiruvml2.jpeg",
+        "thiruvml3.jpeg",
+        "thiruvml6.jpeg",
+        "thiruvml7.jpeg",
+        "thiruvml8.jpeg",
+      ],
+    },
+    {
+      id: "travel3",
+      name: "Madurai Temples",
+      createdAt: "2024-07-15T00:00:00Z",
+      description:
+        "In July 2024, an unplanned trip to Madurai led to my first-ever darshan of several iconic deities. Visiting Rakkayi Amman Temple, Immayil Nanmai Tharuvar Temple, Azhagar Kovil, Pazhani, Tiruparam Gundram, and Pazhamudir Cholai left me spiritually fulfilled. Meenakshi Amman’s beauty was captivating, with her sparkling nose pin and radiant aura. The trip ended with gratitude and divine blessings, making it an unforgettable journey.",
+      images: [
+        "madurai1.jpeg",
+        "madurai2.jpeg",
+        "madurai3.jpeg",
+        "madurai4.jpeg",
+        "madurai5.jpeg",
+        "madurai6.jpeg",
+        "madurai7.jpeg",
+        "madurai8.jpeg",
+        "madurai9.jpeg",
+      ],
+    },
+
+    {
+      id: "travel5",
+      name: "Murugan Temples - Tamil Nadu",
+      createdAt: "2024-09-05T00:00:00Z",
+      description:
+        "Throughout 2024, I embarked on a spiritual journey to visit the revered Murugan temples across Tamil Nadu. November 2024 was a divine month of darshans at Murugan temples during three successive Krithigai days at Kundrathur, Vadapalani, and Tiruporur. The first arthi in Thanga Kavacham left me awe-struck, with tears streaming as I stood close to the deity. This included darshans at the Arupadai Veedu temples, which hold immense significance in Karthikeya's worship. Visits to sacred sites like Siruvapuri, Vadapalani, Tiruthani, Kundrathur, and Marudhamalai enriched my devotion and connection to Lord Murugan. Each temple carried its own divine aura, leaving my soul immersed in blessings and gratitude.",
+      images: [
+        "murugant1.jpeg",
+        "murugant2.jpeg",
+        "murugant3.jpeg",
+        "murugant4.jpeg",
+        "murugant5.jpeg",
+        "murugant6.jpeg",
+        "murugant7.jpeg",
+        "murugant8.jpeg",
+        "murugant9.jpeg",
+        "murugant10.jpeg",
+        "murugant11.jpeg",
+        "murugant12.jpeg",
+      ],
+    },
+    {
+      id: "travel6",
+      name: "Chennai - Temples and Spiritual Connection",
+      createdAt: "2024-11-15T00:00:00Z",
+      description:
+        "Exploring the Navagraha temples in Chennai was a deeply spiritual journey. The massive lingas in these temples radiated an awe-inspiring energy. Witnessing the consecration ceremonies across the temples added a profound sense of devotion and connection. The intricate and beautiful temple architecture stood as a testament to the rich cultural heritage, blending seamlessly with the divine aura that enveloped each sacred space. This spiritual experience left me deeply moved and enriched.",
+      images: [
+        "chnai1.jpeg",
+        "chnai2.jpeg",
+        "chnai3.jpeg",
+        "chnai4.jpeg",
+        "chnai5.jpeg",
+        "chnai6.jpeg",
+        "chnai8.jpeg",
+        "chnai9.jpeg",
+        "chnai10.jpeg",
+        "chnai11.jpeg",
+        "chnai12.jpeg",
+      ],
+    },
+
+    {
+      id: "travel9",
+      name: "Divya Desams - Sacred Pilgrimage",
+      createdAt: "2024-11-30T00:00:00Z",
+      description:
+        "November 2024 marked the completion of my visits to the Divya Desams in Chennai, including Bakthavatsala Perumal, Neervanna Perumal, Sthala Sayana Perumal, and Vaidhya Veeraraghava Perumal. Each darshan was a divine experience, filled with spiritual connection and grace. While this journey in Chennai has concluded, my heart is set on continuing the pilgrimage to other Divya Desams across the country in the near future.",
+      images: [
+        "dd1.jpeg",
+        "dd2.jpeg",
+        "dd3.jpeg",
+        "dd4.jpeg",
+        "dd5.jpeg",
+        "dd6.jpeg",
+      ],
+    },
+
+    {
+      id: "travel11",
+      name: "Kanchipuram - Kamakshi Temples",
+      createdAt: "2024-12-05T00:00:00Z",
+      description:
+        "In 2024, I visited the sacred Kamakshi temples in Kanchipuram, where the divine calmness of the deity enveloped my soul. The serene aura of Kanchi Kamakshi filled the surroundings with peace and tranquility. The beauty of the temple tanks and the sight of parrots fluttering around added to the charm of the visit. Standing before the powerful yet graceful deity, I felt a profound sense of gratitude and connection, leaving me spiritually rejuvenated.",
+      images: ["kanch1.jpeg", "kanch2.jpeg", "kanch3.jpeg"],
     },
   ],
 };
@@ -672,9 +776,9 @@ export { travelHeader, travelDiaries };
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "imgdeepika.jpg",
+    profile_image_path: "contactmedp.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on WhatsApp - Phone: +91 9940485505, LinkedIn, Facebook and Gmail. I can help you with or have a conversation about training, coaching, writing, content creation, custom arts and crafts, and travel guidance. Feel free to reach out!",
   },
   blogSection: {},
   addressSection: {},

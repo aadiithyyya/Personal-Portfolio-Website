@@ -24,12 +24,19 @@ class Splash extends Component {
   }
 
   componentDidMount() {
+    // Add splash-active class to body
+    document.body.classList.add("splash-active");
+
     // Redirect to the home page after 2 seconds
-    this.redirectTimer = setTimeout(() => this.setState({ redirect: true }), 1700);
+    this.redirectTimer = setTimeout(
+      () => this.setState({ redirect: true }),
+      1700
+    );
   }
 
   componentWillUnmount() {
-    // Clear the timeout to prevent memory leaks
+    // Remove splash-active class to restore normal scroll behavior
+    document.body.classList.remove("splash-active");
     clearTimeout(this.redirectTimer);
   }
 

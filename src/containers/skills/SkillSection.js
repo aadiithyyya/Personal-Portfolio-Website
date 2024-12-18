@@ -13,20 +13,13 @@ import TravImg from "./TravImg";
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
     return <DataScienceImg theme={props.theme} />;
-  
   else if (props.fileName === "FullStackImg")
     return <FullStackImg theme={props.theme} />;
-  
-  else if (props.fileName === "ArtImg")
-    return <ArtImg theme={props.theme} />;
- 
-  else if (props.fileName === "TravImg")
-    return <TravImg theme={props.theme} />;
- 
-  
+  else if (props.fileName === "ArtImg") return <ArtImg theme={props.theme} />;
+  else if (props.fileName === "TravImg") return <TravImg theme={props.theme} />;
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
-  
+
   return <DesignImg theme={props.theme} />;
 }
 
@@ -38,9 +31,8 @@ class SkillSection extends Component {
         {skills.data.map((skill, i) => {
           return (
             <div key={i} className="skills-main-div">
-              <Fade left duration={2000}>
+              <Fade left duration={600}>
                 <div className="skills-image-div">
-                 
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
               </Fade>

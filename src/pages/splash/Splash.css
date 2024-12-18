@@ -1,3 +1,14 @@
+/* General Reset - Safe for Splash */
+body.splash-active,
+html.splash-active {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scroll for splash screen only */
+  background-color: #001a4d; /* Match the blue background */
+  height: 100%;
+  width: 100%;
+}
+
 /* General Wrapper */
 .logo_wrapper {
   height: 100vh;
@@ -5,7 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden; /* Ensures no content overflow on small screens */
+  overflow: hidden; /* Avoid content overflow */
 }
 
 /* Full-Screen Animation Container */
@@ -15,34 +26,50 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
   position: relative;
+  background-color: #001a4d; /* Ensure consistent blue */
   animation: grow 5.5s forwards;
 }
 
 /* Text Animation */
 .fade-reveal {
   font-family: "Agustina Regular", sans-serif;
-  font-size: 5rem; /* Default text size for larger screens */
+  font-size: 5rem;
   font-weight: bold;
   position: relative;
   display: inline-block;
-  color: transparent; /* Initially transparent */
-  background-image: linear-gradient(to right, white 50%, transparent 50%);
+  color: transparent;
+  background-image: linear-gradient(to bottom, white 50%, transparent 50%);
   background-clip: text;
   -webkit-background-clip: text;
-  animation: fade-in-reveal 3s ease-in-out forwards;
+  animation: fade-in-reveal 3s ease-in-out forwards, float-text 5s infinite;
+  text-align: center;
 }
 
 /* Fade-in Reveal Animation */
 @keyframes fade-in-reveal {
   0% {
     color: transparent;
-    background-image: linear-gradient(to right, transparent 50%, white 50%);
+    background-image: linear-gradient(to bottom, transparent 50%, white 50%);
+  }
+  50% {
+    color: white;
+    background-image: linear-gradient(to bottom, white 75%, transparent 25%);
   }
   100% {
     color: white;
-    background-image: linear-gradient(to right, white 100%, white 100%);
+    background-image: linear-gradient(to bottom, white 100%, white 100%);
+  }
+}
+
+/* Floating Animation for Text */
+@keyframes float-text {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
   }
 }
 
@@ -72,24 +99,31 @@
 
 /* Media Queries for Mobile Screens */
 @media (max-width: 768px) {
+  .screen {
+    width: 120%; /* Increase the width for mobile screens */
+    justify-content: center; /* Ensures the text remains centered */
+  }
+
   .fade-reveal {
     font-size: 3rem; /* Adjusted text size for mobile */
     line-height: 1.2; /* Improves readability */
-    text-align: center; /* Centers text properly */
+    text-align: center; /* Ensures the text is properly aligned */
   }
 
   .logo_wrapper {
     padding: 1rem; /* Adds spacing to prevent overflow */
   }
-
-  .screen {
-    animation: grow 4s forwards; /* Slightly faster animation for mobile */
-  }
 }
 
 @media (max-width: 480px) {
+  .screen {
+    width: 130%; /* Further increase width for smaller screens */
+    justify-content: center; /* Ensures the text remains centered */
+  }
+
   .fade-reveal {
     font-size: 2.5rem; /* Further reduce text size for smaller screens */
     line-height: 1.1;
+    text-align: center; /* Ensure proper centering */
   }
 }
