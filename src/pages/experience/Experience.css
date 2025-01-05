@@ -5,7 +5,8 @@
   padding: 0;
   background-color: #f8fbfe;
   color: #333;
-  font-family: "Poppins", sans-serif;
+  font-family: "DM Serif Display", "Libre Baskerville", "Roboto Slab",
+    "Crimson Text", sans-serif;
   overflow-x: hidden;
 }
 

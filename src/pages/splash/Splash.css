@@ -4,7 +4,7 @@ html.splash-active {
   margin: 0;
   padding: 0;
   overflow: hidden; /* Prevent scroll for splash screen only */
-  background-color: #001a4d; /* Match the blue background */
+  background-color: #ffffff; /* Match the blue background */
   height: 100%;
   width: 100%;
 }
@@ -27,7 +27,7 @@ html.splash-active {
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: #001a4d; /* Ensure consistent blue */
+  background-color: #ffffff; /* Ensure consistent blue */
   animation: grow 5.5s forwards;
 }
 

@@ -1,5 +1,6 @@
 .social-media-div {
   font-size: 2em;
+  align-content: center;
 }
 
 .icon-button i {
@@ -17,7 +18,7 @@
   height: 2.6rem;
   line-height: 2.6rem;
   margin: 0 5px;
-  position: relative;
+  position: center;
   text-align: center;
   -webkit-user-select: none;
   -moz-user-select: none;

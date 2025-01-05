@@ -5,7 +5,6 @@
   align-items: center; /* Vertically align text and image */
   justify-content: space-between; /* Add space between text and image */
   gap: 20px; /* Add spacing between text and image */
-  
 }
 
 .greeting-main > * {
@@ -14,24 +13,34 @@
 }
 
 .greeting-text {
-  
   margin-top: 80px;
-  font-size: 70px;
-  line-height: 1.1;
-  font-family: "Google Sans Bold";
+  font-size: 72px;
+  line-height: 1.2;
+  font-family: "Poppins", "Playfair Display", "Raleway", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #2c3e50;
 }
 
 .greeting-nickname {
-  font-size: 30px;
-  line-height: 1.2;
-  font-family: "Google Sans Bold Italic";
+  font-size: 32px;
+  line-height: 1.3;
+  font-family: "Lobster", "Poppins", "Raleway", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #34495e;
 }
 
 .greeting-text-p {
-  font-size: 40px;
-  line-height: 1.5;
+  font-size: 42px;
+  line-height: 1.6;
   margin-right: 40px;
-  font-family: "Google Sans Medium";
+  font-family: "Poppins", "Merriweather", "Roboto", sans-serif;
+  font-weight: 300;
+  color: #7f8c8d;
+  text-align: center;
 }
 
 .greeting-image-div > * {

@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: "Arial", sans-serif;
+  font-family: "DM Serif Display", "Libre Baskerville", "Roboto Slab",
+    "Crimson Text", sans-serif;
   font-size: 2rem;
   color: #333;
   height: 100vh;
@@ -31,7 +32,8 @@
 }
 
 @keyframes blink {
-  0%, 20% {
+  0%,
+  20% {
     opacity: 0;
   }
   50% {
