@@ -20,7 +20,6 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Deepika M",
-  logo_name: "AshutoshHathidara",
   nickname: "Communication Specialist & Life Coach",
   subTitle:
     "Empowering professionals to enhance their influence through effective communication and strong interpersonal skills.",
@@ -31,11 +30,6 @@ const greeting = {
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
 
   {
     name: "LinkedIn",
@@ -599,9 +593,9 @@ const travelDiaries = {
       description:
         "A spiritual awakening unfolded during an early morning dive in Chandra Kund at Isha in March 2024, marking my 45th birthday. The day included 45 minutes in Chandra Kund, chanting at Linga Bhairavi, and meditative silence in the Dhyana Linga, bringing immense joy and transformation. In May 2024, another visit to Isha immersed me in an hour of meditation at Dhyana Linga, rejuvenated by the mesmerizing evening arthi. June 2024 brought a week-long stay in Coimbatore, where I spent peaceful moments in the serene atmosphere of Dhyana Linga. July 2024 added an overnight stay at Isha, where the tranquil campus vibe drew me deeper into divine energy.",
       images: [
+        "isha3.jpeg",
         "isha1.jpeg",
         "isha2.jpeg",
-        "isha3.jpeg",
         "isha4.jpeg",
         "isha5.jpeg",
       ],
@@ -613,8 +607,8 @@ const travelDiaries = {
       description:
         "August 2024 marked a divine journey towards an unscheduled trip to Kasi Viswanath, which became a life-changing experience, with a 4 AM darshan of the Jyothirlinga and a blissful connection at Visalakshi’s feet. Witnessing the darshans of Meenakshi, Kamakshi, and Visalakshi within days overwhelmed my soul with divine grace.",
       images: [
-        "kasi1.jpeg",
         "kasi2.jpeg",
+        "kasi1.jpeg",
         "kasi3.jpeg",
         "kasi4.jpeg",
         "kasi5.jpeg",
@@ -632,7 +626,7 @@ const travelDiaries = {
       description:
         "December 2024 concluded with a spiritual retreat to Madhya Pradesh, visiting Mahakaleshwar and Omkareshwar Jyothirlingas. The flowing Narmada, the Shipra arthi, and abhisekham filled my soul with spirituality. Darshan of Maa Bagalamukhi and Gatkalika, along with visits to historical temples and palaces, made this a once-in-a-lifetime experience, embracing the eternal divine presence.",
       images: [
-        "mp1.jpeg",
+        "mp16.jpeg",
         "mp2.jpeg",
         "mp3.jpeg",
         "mp4.jpeg",
@@ -647,7 +641,7 @@ const travelDiaries = {
         "mp13.jpeg",
         "mp14.jpeg",
         "mp15.jpeg",
-        "mp16.jpeg",
+        "mp1.jpeg",
         "mp17.jpeg",
       ],
     },
@@ -658,9 +652,9 @@ const travelDiaries = {
       description:
         "March 2024 brought a transformative wellness retreat to Kshemavanam, Karnataka. Nestled in a serene environment, I underwent rejuvenating naturopathy treatments that harmonized the body and mind. The retreat included coaching and counseling sessions on food, health, diet, mental well-being, and self-realization. The peaceful atmosphere and holistic approach left a lasting impact, inspiring a deeper commitment to personal wellness and spiritual growth.",
       images: [
-        "kshmvn1.jpeg",
-        "kshmvn2.jpeg",
         "kshmvn3.jpeg",
+        "kshmvn2.jpeg",
+        "kshmvn1.jpeg",
         "kshmvn4.jpeg",
         "kshmvn5.jpeg",
         "kshmvn7.jpeg",
@@ -689,9 +683,9 @@ const travelDiaries = {
       description:
         "In July 2024, an unplanned trip to Madurai led to my first-ever darshan of several iconic deities. Visiting Rakkayi Amman Temple, Immayil Nanmai Tharuvar Temple, Azhagar Kovil, Pazhani, Tiruparam Gundram, and Pazhamudir Cholai left me spiritually fulfilled. Meenakshi Amman’s beauty was captivating, with her sparkling nose pin and radiant aura. The trip ended with gratitude and divine blessings, making it an unforgettable journey.",
       images: [
-        "madurai1.jpeg",
-        "madurai2.jpeg",
         "madurai3.jpeg",
+        "madurai2.jpeg",
+        "madurai1.jpeg",
         "madurai4.jpeg",
         "madurai5.jpeg",
         "madurai6.jpeg",
@@ -702,14 +696,71 @@ const travelDiaries = {
     },
 
     {
+      id: "travel9",
+      name: "Divya Desams - Sacred Pilgrimage",
+      createdAt: "2024-11-30T00:00:00Z",
+      description:
+        "November 2024 marked the completion of my visits to the Divya Desams in Chennai, including Bakthavatsala Perumal, Neervanna Perumal, Sthala Sayana Perumal, and Vaidhya Veeraraghava Perumal. Each darshan was a divine experience, filled with spiritual connection and grace. While this journey in Chennai has concluded, my heart is set on continuing the pilgrimage to other Divya Desams across the country in the near future.",
+      images: [
+        "dd8.jpeg",
+        "dd7.jpeg",
+        "dd9.jpeg",
+        "dd10.jpeg",
+        "dd11.jpeg",
+        "dd12.jpeg",
+        "dd13.jpeg",
+        "dd15.jpeg",
+        "dd16.jpeg",
+        "dd17.jpeg",
+        "dd18.jpeg",
+        "dd19.jpeg",
+        "dd20.jpeg",
+        "dd21.jpeg",
+        "dd1.jpeg",
+        "dd2.jpeg",
+        "dd3.jpeg",
+        "dd4.jpeg",
+        "dd5.jpeg",
+        "dd6.jpeg",
+      ],
+    },
+
+    {
+      id: "travel11",
+      name: "Kanchipuram - Kamakshi Temples",
+      createdAt: "2024-12-05T00:00:00Z",
+      description:
+        "In 2024, I visited the sacred Kamakshi temples in Kanchipuram, where the divine calmness of the deity enveloped my soul. The serene aura of Kanchi Kamakshi filled the surroundings with peace and tranquility. The beauty of the temple tanks and the sight of parrots fluttering around added to the charm of the visit. Standing before the powerful yet graceful deity, I felt a profound sense of gratitude and connection, leaving me spiritually rejuvenated.",
+      images: [
+        "kanch1.jpeg",
+        "kanch2.jpeg",
+        "kanch3.jpeg",
+        "kanch4.jpeg",
+        "kanch5.jpeg",
+        "kanch6.jpeg",
+        "kanch7.jpeg",
+        "kanch8.jpeg",
+        "kanch9.jpeg",
+        "kanch10.jpeg",
+        "kanch11.jpeg",
+        "kanch12.jpeg",
+        "kanch13.jpeg",
+        "kanch14.jpeg",
+        "kanch15.jpeg",
+        "kanch16.jpeg",
+        "kanch17.jpeg",
+        "kanch18.jpeg",
+      ],
+    },
+    {
       id: "travel5",
       name: "Murugan Temples - Tamil Nadu",
       createdAt: "2024-09-05T00:00:00Z",
       description:
         "Throughout 2024, I embarked on a spiritual journey to visit the revered Murugan temples across Tamil Nadu. November 2024 was a divine month of darshans at Murugan temples during three successive Krithigai days at Kundrathur, Vadapalani, and Tiruporur. The first arthi in Thanga Kavacham left me awe-struck, with tears streaming as I stood close to the deity. This included darshans at the Arupadai Veedu temples, which hold immense significance in Karthikeya's worship. Visits to sacred sites like Siruvapuri, Vadapalani, Tiruthani, Kundrathur, and Marudhamalai enriched my devotion and connection to Lord Murugan. Each temple carried its own divine aura, leaving my soul immersed in blessings and gratitude.",
       images: [
-        "murugant1.jpeg",
         "murugant2.jpeg",
+        "murugant1.jpeg",
         "murugant3.jpeg",
         "murugant4.jpeg",
         "murugant5.jpeg",
@@ -729,43 +780,18 @@ const travelDiaries = {
       description:
         "Exploring the Navagraha temples in Chennai was a deeply spiritual journey. The massive lingas in these temples radiated an awe-inspiring energy. Witnessing the consecration ceremonies across the temples added a profound sense of devotion and connection. The intricate and beautiful temple architecture stood as a testament to the rich cultural heritage, blending seamlessly with the divine aura that enveloped each sacred space. This spiritual experience left me deeply moved and enriched.",
       images: [
-        "chnai1.jpeg",
+        "chnai8.jpeg",
         "chnai2.jpeg",
         "chnai3.jpeg",
         "chnai4.jpeg",
         "chnai5.jpeg",
         "chnai6.jpeg",
-        "chnai8.jpeg",
+        "chnai1.jpeg",
         "chnai9.jpeg",
         "chnai10.jpeg",
         "chnai11.jpeg",
         "chnai12.jpeg",
       ],
-    },
-
-    {
-      id: "travel9",
-      name: "Divya Desams - Sacred Pilgrimage",
-      createdAt: "2024-11-30T00:00:00Z",
-      description:
-        "November 2024 marked the completion of my visits to the Divya Desams in Chennai, including Bakthavatsala Perumal, Neervanna Perumal, Sthala Sayana Perumal, and Vaidhya Veeraraghava Perumal. Each darshan was a divine experience, filled with spiritual connection and grace. While this journey in Chennai has concluded, my heart is set on continuing the pilgrimage to other Divya Desams across the country in the near future.",
-      images: [
-        "dd1.jpeg",
-        "dd2.jpeg",
-        "dd3.jpeg",
-        "dd4.jpeg",
-        "dd5.jpeg",
-        "dd6.jpeg",
-      ],
-    },
-
-    {
-      id: "travel11",
-      name: "Kanchipuram - Kamakshi Temples",
-      createdAt: "2024-12-05T00:00:00Z",
-      description:
-        "In 2024, I visited the sacred Kamakshi temples in Kanchipuram, where the divine calmness of the deity enveloped my soul. The serene aura of Kanchi Kamakshi filled the surroundings with peace and tranquility. The beauty of the temple tanks and the sight of parrots fluttering around added to the charm of the visit. Standing before the powerful yet graceful deity, I felt a profound sense of gratitude and connection, leaving me spiritually rejuvenated.",
-      images: ["kanch1.jpeg", "kanch2.jpeg", "kanch3.jpeg"],
     },
   ],
 };
