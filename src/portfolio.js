@@ -22,7 +22,7 @@ const greeting = {
   title: "Deepika M",
   nickname: "Communication Specialist & Life Coach",
   subTitle:
-    "Empowering professionals to enhance their influence through effective communication and strong interpersonal skills.",
+    "Empowering professionals & students to enhance their influence through effective communication and strong interpersonal skills.",
   resumeLink: "https://www.linkedin.com/in/deepika-s-1a1427177/",
   portfolio_repository: "https://www.linkedin.com/in/deepika-s-1a1427177/",
   githubProfile: "https://www.linkedin.com/in/deepika-s-1a1427177/",
@@ -58,7 +58,7 @@ const socialMediaLinks = [
   },
   {
     name: "Instagram",
-    link: "https://www.linkedin.com/in/deepika-s-1a1427177/",
+    link: "https://www.instagram.com/deepika.saravanan.7?igsh=MXhyMjh0MXc5MnRvYw==",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -70,7 +70,9 @@ const skills = {
       title: "Training & Development",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Conducting regular Train-the-Trainer programs to upskill faculty and team members",
+        "⚡ Conducting regular Train-the-Trainer programs to upskill teachers.",
+        "⚡ Communication coaching sessions & classess for school students and home-makers.",
+
         "⚡ Customized curriculum creation for behavioral and communication training - Grammar, Interpersonal Skills, RCA, Corporate Ettiquettes, ATD, Leadership Skills",
         "⚡ Delivered over 40 training batches (NHT and RFT).",
         "⚡ A Certified CEFR Assessor - conducted recruitment process assessments",
@@ -284,9 +286,17 @@ const certifications = {
         "https://drive.google.com/drive/folders/1dErpr7uQuYSJeB5aYjkp1BdYXa3MNv9c?usp=share_link",
       color_code: "#FFF",
     },
+    
     {
       title: "Hindi Prachar Sabha - Visharad Poorvadh",
       logo_path: "hindips.png",
+      color_code: "#FFF",
+    },
+    {
+      title: "Coaching Mastery Professional Certification",
+      logo_path: "cert1.png",
+      certificate_link:
+      "https://drive.google.com/drive/folders/1dErpr7uQuYSJeB5aYjkp1BdYXa3MNv9c?usp=share_link",
       color_code: "#FFF",
     },
   ],
@@ -446,6 +456,88 @@ const events = {
       image: "vadivumeet.jpeg", // Replace with the actual image file
     },
     {
+      id: "event21",
+      name: "Catching up with veteran Actor Nalini at Vilakku Kadai - Porur",
+      createdAt: "2023-12-05T00:00:00Z",
+      description:
+        "",
+      image: "event31.jpeg", // Replace with the actual image file
+    },
+    {
+      id: "event32",
+      name: "Corporate Trainer Certification",
+      createdAt: "2023-12-05T00:00:00Z",
+      description:
+        "Certification day at IATD, Chennai - With Dr. Rajan Muthukrishnan, Founder ZEAL & IATD, COO of Synergy School of Business Skills - CADD Center, Master Trainer and Author.",
+      image: "event32.jpeg", // Replace with the actual image file
+    },
+    {
+      id: "event24",
+      name: "With the trainer's team IATD, Chennai",
+      createdAt: "2023-12-05T00:00:00Z",
+      description:
+        "",
+      image: "event24.jpg", // Replace with the actual image file
+    },
+    
+    {
+      id: "event23",
+      name: "With Panruti S Ramachandran, Former Minister of Public Works, government of TN. ",
+      createdAt: "2023-12-05T00:00:00Z",
+      description:
+        "",
+      image: "event22.jpg", // Replace with the actual image file
+    },
+  
+    {
+      id: "event25",
+      name: "Star Hub clients and the SDL’s of Accenture – hosted the Town Hall during client visit – 2019",
+      createdAt: "2023-12-05T00:00:00Z",
+      description:
+        "",
+      image: "event25.jpg", // Replace with the actual image file
+    },
+    {
+      id: "event26",
+      name: "Hosting the townhall event @ Accenture, Chennai.",
+      createdAt: "2023-12-05T00:00:00Z",
+      description:
+        "",
+      image: "event26.jpg", // Replace with the actual image file
+    },
+    {
+      id: "event27",
+      name: "With Dr Rasheeda, Professor, Department of English, Bharathi’s Women’s College, Chennai",
+      createdAt: "2023-12-05T00:00:00Z",
+      description:
+        "",
+      image: "event27.jpg", // Replace with the actual image file
+    },
+    {
+      id: "event28",
+      name: "Dr Padmavathy, Vice Chancellor -PSGR Krishnammal College for Women.",
+      createdAt: "2023-12-05T00:00:00Z",
+      description:
+        "",
+      image: "event28.jpg", // Replace with the actual image file
+    },
+    {
+      id: "event29",
+      name: "With Dr Tamilselvi, HOD Department of English – PSGR Krishnammal College for Women",
+      createdAt: "2023-12-05T00:00:00Z",
+      description:
+        "",
+      image: "event29.jpg", // Replace with the actual image file
+    },
+    {
+      id: "event30",
+      name: "Receiving a momento from Thillai Ganga Nagar Association, Nanganallur - Presented by Chef Mallika Badrinath.",
+      createdAt: "2023-12-05T00:00:00Z",
+      description:
+        "",
+      image: "event30.jpg", // Replace with the actual image file
+    },
+    {
       id: "event3",
       name: "Interviewing Veteran Nair Raman",
       createdAt: "2023-11-10T00:00:00Z",
@@ -471,7 +563,7 @@ const events = {
     },
     {
       id: "event18",
-      name: "Interviewing TK Murthy",
+      name: "Interviewing Padmashri, Sangeetha Kalanidhi Dr. TK Murthy",
       createdAt: "2023-11-10T00:00:00Z",
       description:
         "He has an illustrious career of a musician, a legendary accompanist, who has performed in over 15,000 concerts spanning an incredible 100 years. This individual has had the honour of accompanying several of the most respected figures in Indian classical music, such as Harikesanallur Muthiah Bhagavatar, Ariyakudi Ramanuja Iyengar, Chembai Vaidhyanatha Bagavathar, Semmangudi Srinivasa Iyer, M. S. Subbulakshmi, Madurai Somasundaram, D. K. Jayaraman, M. Balamuralikrishna, Kunnakudi Vaidyanathan, K.J.Yesudas, Lalgudi Jayaraman, T. V. Sankaranarayanan and U. Srinivas. Having a conversation with him was a blessing of a lifetime. His energy and discipline in practicing the art were truly remarkable. The conversation provided valuable insights into his connection with Kanchi Mahaperiyavar, his early years, and his dedication to music. He mentored prominent figures in the field of music and instruments, and even in his late 80s, he continued practicing the mridangam. His habit of early rising greatly impacted his life.",
@@ -487,7 +579,7 @@ const events = {
     },
     {
       id: "event20",
-      name: "Conversation with V Kalyanam",
+      name: "Conversation with V Kalyanam (Mahatma Gandhi's Personal Secretary)",
       createdAt: "2023-11-10T00:00:00Z",
       description:
         "The conversation was enlightening, revealing new facts about Gandhiji, including his life at Sabarmati Ashram, his use of mud packs for good health, fasting techniques, and other practices he followed. Saw hundreds of postcards sent to Gandhi from all over the world, mementoes, charka and much more. The house felt like a museum, with Gandhian principles evident everywhere. His humility and respect towards us were remarkable. Additionally, his terrace garden, active lifestyle well into his 80s, and sense of humour left a lasting impression.",
@@ -496,7 +588,7 @@ const events = {
     {
       id: "event6",
       createdAt: "2023-11-10T00:00:00Z",
-      name: "Compaired a Navrathri contest event representing Talk Media.",
+      name: "Compaired a Navrathri contest event representing Talk Media (Hosted a 2-day event)",
       image: "event6.jpeg",
     },
     {
@@ -504,7 +596,7 @@ const events = {
       name: "Seva Ratna Award - 2010",
       createdAt: "2023-11-10T00:00:00Z",
       description:
-        "Was one among the 75 achievers selected for their service to society. Asthiga samajam conferred a title Seva Ratna in 2010.",
+        "Was one among the 75 achievers selected for their service to society. Asthiga samajam conferred a title Seva Ratna for my consistent contribtion in addressing civic and social issues of the neighbourhood.",
       image: "event7.jpeg",
     },
     {
@@ -545,7 +637,7 @@ const events = {
     },
     {
       id: "event16",
-      name: "Meeting Dakshayani Ramachandran",
+      name: "Meeting Dancer and Choreographer Dakshayani Ramachandran, Dance Master Raghuram's Sister",
       createdAt: "2023-11-10T00:00:00Z",
       description:
         "With dancer Dakshayani Ramachandran & choreographer Master Raghuram's sister.",
@@ -562,8 +654,9 @@ const events = {
     {
       id: "event19",
       name: "Launch Event of the 'Impress' magazine.",
+      
       createdAt: "2023-11-10T00:00:00Z",
-      description: "",
+      description: "Impress is a monthly magazine, I served as an editor for an year over there.",
       image: "impress.jpg",
     },
     {
@@ -579,9 +672,8 @@ const events = {
 //Travel Diaries
 
 const travelHeader = {
-  title: "Travel Diaries",
-  description:
-    "Explore my unforgettable journeys to culturally significant places, historical landmarks, and scenic destinations. Here are some highlights from my travel experiences.",
+  title: "Travel & Soulful Reflections",
+  description: "Embark on a mesmerising journey through ancient temples, immersed in beautiful stories and spiritual wonders, whether you're a guest touring in person or looking for holy legends. My spiritual outlook is profoundly anchored in an intuitive and immersive connection with sacred locations, as I seek the deity's energy, sensing its presence beyond rituals, and harmonising with the divine force that resides within the sanctum. The aura of the location is important to the experience because it allows me to tune in to the vibrations of dedication, history, and faith that have created the temple over generations. For me, spirituality is more than simply exterior worship; it's about an immediate connection—a moment when time stops and you feel in tune with the holy essence of the space. Temple legends and histories are more than simply stories; they are living testaments to religion, culture, and dedication. The quest for deeper insight includes discovering why a temple was established, the cosmic purpose for its existence, and the spiritual importance it holds. My notion of spirituality is a journey of seeking, feeling, and understanding—where history, energy, and connection come together to create a profound and personal divine experience.",
 };
 
 const travelDiaries = {
@@ -595,17 +687,16 @@ const travelDiaries = {
       images: [
         "isha3.jpeg",
         "isha1.jpeg",
-        "isha2.jpeg",
+        "isha2.jpeg", 
         "isha4.jpeg",
         "isha5.jpeg",
       ],
     },
     {
       id: "travel4",
-      name: "Kasi - Divine Grace",
+      name: "A Divine Sojourn to Kashi Vishwanath: A Life-Changing Experience",
       createdAt: "2024-08-25T00:00:00Z",
-      description:
-        "August 2024 marked a divine journey towards an unscheduled trip to Kasi Viswanath, which became a life-changing experience, with a 4 AM darshan of the Jyothirlinga and a blissful connection at Visalakshi’s feet. Witnessing the darshans of Meenakshi, Kamakshi, and Visalakshi within days overwhelmed my soul with divine grace.",
+      description: "The journey to Kashi Vishwanath was more than a pilgrimage; it was a soul-stirring transformation. The sacred city, drenched in centuries of devotion, welcomed me with an energy that felt both ancient and eternal. The pinnacle of this spiritual odyssey was the 4 am darshan of the Jyotirlinga at Kashi Vishwanath Temple. As the temple bells resonated in the stillness of dawn, the divine presence of Mahadev engulfed me in an indescribable serenity. Time seemed to dissolve as I stood in His presence, my heart surrendering to the boundless grace of the Lord. From there, my journey led me to the feet of Visalakshi, the Divine Mother. A profound sense of bliss washed over me as I knelt before her, the embodiment of compassion and cosmic energy. The gentle yet powerful aura of the goddess left me feeling nurtured and protected. The visit to Kaal Bhairav Mandir was an encounter with raw, untamed divinity. The air crackled with an intensity that was both overwhelming and empowering. Standing before Kaal Bhairav, the fierce guardian of Kashi, I felt the weight of time and karma dissolve, replaced by an unshakable strength. Every temple and ghat I visited added a new layer to this divine experience. Lal Mata Mandir radiated the essence of feminine power, while Tridev Mandir symbolized the unity of creation, preservation, and destruction. At Tulsidas Ashram, the echoes of Ramcharitmanas resonated in the air, reminding me of the timeless devotion of the saint-poet. The ghats of Kashi, where life and death intertwine seamlessly, held a mystical allure. Manikarnika and Harishchandra Ghats—where the eternal fire burns—spoke of the transient nature of existence, yet whispered the promise of liberation. Aasi Ghat, with its tranquil waters and sacred chants, felt like a place where the river carried away all burdens, leaving behind only peace. Kashi is not just a place; it is an experience that transcends words. It is where divinity meets humanity, where the soul finds its true calling. This journey was not merely a visit—it was a rebirth, a realization that in the cosmic dance of life and death, we are but seekers on the path of the eternal.",
       images: [
         "kasi2.jpeg",
         "kasi1.jpeg",
@@ -621,10 +712,9 @@ const travelDiaries = {
     },
     {
       id: "travel7",
-      name: "Madhya Pradesh - Mahakaleshwar and Omkareshwar",
+      name: "A Spiritual Retreat to Madhya Pradesh: Embracing the Eternal Divine",
       createdAt: "2024-12-15T00:00:00Z",
-      description:
-        "December 2024 concluded with a spiritual retreat to Madhya Pradesh, visiting Mahakaleshwar and Omkareshwar Jyothirlingas. The flowing Narmada, the Shipra arthi, and abhisekham filled my soul with spirituality. Darshan of Maa Bagalamukhi and Gatkalika, along with visits to historical temples and palaces, made this a once-in-a-lifetime experience, embracing the eternal divine presence.",
+      description: "My journey to Madhya Pradesh was more than a pilgrimage; it was a retreat into the depths of spirituality, where every moment felt like a conversation with the divine. The land of Mahakaleshwar and Omkareshwar, graced by the sacred flow of the Narmada and Shipra rivers, held an energy that resonated with the soul. Standing before Mahakaleshwar, the Jyotirlinga that transcends time, was an experience beyond words. As the rhythmic chants of the Rudrabhishekam filled the sanctum, a wave of devotion and surrender washed over me. Omkareshwar, nestled amidst the serene embrace of the Narmada, radiated a peace that settled deep within, reminding me of the eternal presence of Shiva. The flowing Narmada carried whispers of divinity, its sacred waters holding the essence of countless prayers. Witnessing the Shipra Aarti was a sight to behold—flames rising to meet the heavens, chants echoing through the air, and the river shimmering in divine acknowledgment. Performing the abhisekham for Goddess Shipra was an overwhelming blessing, as she flowed with elegance, embodying grace and divinity. The darshan of Maa Bagalamukhi and Gatkalika added another dimension to this journey. Their presence was both fierce and protective, a reminder of the strength that lies in surrender. The visit to the Shakti Peeth, where the aarti was performed with immense bhakti by devotees, was a moment of sheer transcendence. The devotion, the vibrations, and the spiritual energy of the place left an indelible mark on my heart. The journey took me beyond temples—to history and nostalgia. Visiting the Vikramaditya Bethal tree was like stepping into my childhood, where my grandmother’s stories of the wise king and the enigmatic ghost had once filled my imagination. The tree, standing strong for thousands of years, seemed to hold the echoes of those timeless tales. And then, there was Mahakaal—the Lord beyond time and death. His presence was all-encompassing, his aura an eternal embrace. To stand before him was to feel the weight of the universe dissolve, leaving only love, devotion, and an overwhelming sense of belonging. In that moment, I knew—I had fallen in love with Mahakaal, the deity who rules over time, yet liberates from it. This retreat was not just a journey through sacred lands; it was a journey within. A once-in-a-lifetime experience that reaffirmed the eternal bond between the seeker and the divine.",
       images: [
         "mp16.jpeg",
         "mp2.jpeg",
@@ -647,10 +737,9 @@ const travelDiaries = {
     },
     {
       id: "travel9",
-      name: "Kshemavanam, Karnataka - Wellness Retreat",
+      name: " A Transformative Retreat to Kshemavanam: A Journey of Healing and Self-Discovery",
       createdAt: "2024-10-20T00:00:00Z",
-      description:
-        "March 2024 brought a transformative wellness retreat to Kshemavanam, Karnataka. Nestled in a serene environment, I underwent rejuvenating naturopathy treatments that harmonized the body and mind. The retreat included coaching and counseling sessions on food, health, diet, mental well-being, and self-realization. The peaceful atmosphere and holistic approach left a lasting impact, inspiring a deeper commitment to personal wellness and spiritual growth.",
+      description: "My week-long retreat to Kshemavanam with my sister was nothing short of a once-in-a-lifetime experience—an oasis of tranquility where healing unfolded in the most profound way. Nestled in the lap of nature, away from the relentless hum of the outside world, this sanctuary offered a perfect blend of rejuvenation and self-discovery. The naturopathy treatments were more than just therapies; they were a journey into balance, aligning the body and mind in perfect harmony. Each session, carefully designed to cleanse and restore, left me feeling lighter—physically, mentally, and emotionally. Beyond the treatments, the coaching and counseling sessions on food, health, diet, and mental well-being sparked a deeper awareness, making me more mindful of my choices and their impact on my overall wellness. What made Kshemavanam truly magical was not just its holistic approach but the soul-soothing atmosphere that enveloped it. The gentle rustling of leaves, the rhythmic chirping of birds, and the graceful presence of peacocks wandering freely created an environment that felt like nature’s own healing touch. The beautifully curated artifacts and lush gardens were a silent reminder of the power of stillness and beauty in the journey of inner peace. For seven days, I was far removed from the madding crowd, immersed in a space where time slowed down, and self-reflection took center stage. As I left, I carried with me not just the benefits of physical detoxification but an awakened commitment to personal wellness and spiritual growth—one that would continue to shape my path long after the retreat ended.",
       images: [
         "kshmvn3.jpeg",
         "kshmvn2.jpeg",
@@ -663,10 +752,9 @@ const travelDiaries = {
     },
     {
       id: "travel2",
-      name: "Tiruvannamalai - Sacred Girivalam Walk",
+      name: "A Transformative Girivalam at Tiruvannamalai",
       createdAt: "2024-04-14T00:00:00Z",
-      description:
-        "In April 2024, I traveled for the first time to Tiruvannamalai and embarked on the sacred Girivalam walk, covering 14 kilometers while immersed in Shiv Jaap and divine energy. Offering the first garland of the year to Arunachaleshwara at 4:30 AM was a divine experience. In October 2024, I returned to Tiruvannamalai for another Girivalam walk, experiencing the divinity and immense peace of Arunachaleshwara's presence. Each step was a testament to the divine power guiding me.",
+      description: "Returning to the Magnetic Hill of Tiruvannamalai after many years, I embarked on my first-ever Girivalam, a sacred circumambulation of Arunachala. Though walking has never been my forte, I took on the journey with a newfound determination—covering 10 kilometers on foot while the remaining 4 kilometers were traversed by auto. It felt like a personal triumph, a step beyond my own limits, driven by an unseen force. The most profound moment came at 4:30 AM when I had the honor of offering the first garland of the Tamil New Year to Arunachaleshwara. As the divine adornment was placed on Him, I stood with my eyes brimming with warmth and devotion, feeling an unspoken acknowledgment from the Lord Himself. It was a moment beyond words—pure, overwhelming, and deeply personal.Within months, I was drawn back to the sacred hill once again. This time, I completed the full 14-kilometer Girivalam in six hours—an experience unlike any other. It was just the Lord and me, immersed in a rhythm of silent communion. Words fail to capture the depth of that connection, the sheer bliss of walking in His presence, feeling the magnetic energy of Arunachala pull me into stillness and surrender. The hill is more than just a geological wonder—it is a force, a presence, an eternal power that can be felt in every step taken around it. With this newfound devotion, I know this journey will not be my last. Regular Girivalam is now a calling, a path I will walk again and again, drawn by the divine embrace of Arunachala.",
       images: [
         "thiruvml4.png",
         "thiruvml2.jpeg",
@@ -680,8 +768,7 @@ const travelDiaries = {
       id: "travel3",
       name: "Madurai Temples",
       createdAt: "2024-07-15T00:00:00Z",
-      description:
-        "In July 2024, an unplanned trip to Madurai led to my first-ever darshan of several iconic deities. Visiting Rakkayi Amman Temple, Immayil Nanmai Tharuvar Temple, Azhagar Kovil, Pazhani, Tiruparam Gundram, and Pazhamudir Cholai left me spiritually fulfilled. Meenakshi Amman’s beauty was captivating, with her sparkling nose pin and radiant aura. The trip ended with gratitude and divine blessings, making it an unforgettable journey.",
+      description: "Madurai gifted me my first-ever darshan of several revered deities, leaving me spiritually enriched. Visiting Rakkayi Amman Temple, Immayil Nanmai Tharuvar Temple, Azhagar Kovil, Pazhani, Tiruparamkundram, and Pazhamudir Cholai was a divine experience. Meenakshi Amman’s mesmerizing beauty, with her radiant aura and sparkling nose pin, was truly captivating. The sanctum’s intense energy, her right foot placed ahead, and the brilliance of her nose pin remain etched in my soul. Tiruparamkundram Temple stood as a testament to history, its architecture and legends weaving a magical charm. The journey concluded with deep gratitude and divine blessings, making it truly unforgettable.",
       images: [
         "madurai3.jpeg",
         "madurai2.jpeg",
@@ -699,8 +786,7 @@ const travelDiaries = {
       id: "travel9",
       name: "Divya Desams - Sacred Pilgrimage",
       createdAt: "2024-11-30T00:00:00Z",
-      description:
-        "November 2024 marked the completion of my visits to the Divya Desams in Chennai, including Bakthavatsala Perumal, Neervanna Perumal, Sthala Sayana Perumal, and Vaidhya Veeraraghava Perumal. Each darshan was a divine experience, filled with spiritual connection and grace. While this journey in Chennai has concluded, my heart is set on continuing the pilgrimage to other Divya Desams across the country in the near future.",
+      description: "Covering 15 Divya Desams of Kanchipuram in 24 hours and 6 at Chennai is no small feat—both physically and spiritually. Each temple has its own deep-rooted history, unique architectural beauty, and divine presence, making the experience overwhelming and fulfilling. Was indeed an incredible spiritual journey! Though it was physically exhausting, the experience was deeply fulfilling. It also reinforced my belief that I can accomplish my goal of reaching the maximum in the next couple of months. Thiruparameshwara Vinnagaram – Sri Vaikunda Perumal Temple, Thiru Pavala Vannan – Sri Pavala Vannar Temple, hiru Paadagam – Sri Pandava Thoothar temple, Thiru Ooragam – Sri Ulagalantha Perumal temple, Thiru Kaaragam – Sri Karunakara Perumal temple, Thirukarvanam – Sri Thirukkar Vannar temple, Thiru Neeragam – Sri Jagadeeshwarar temple, Thiru Nilathingal Thundam – Sri Nilathingal Thundathan Perumal temple, Thiru Kalvanoor – Sri Adi Varaha Perumal temple, Thiruputkuzhi – Sri Vijayaraghava Perumal temple, Thiru Kacchi – Sri Varadaraja Perumal temple, Thiru Vekka – Sri Yathothakaari temple, Ashtabujam – Sri Aadikesava Perumal temple, Thiru Velukkai – Sri Azhagiya Singar Perumal temple, Thiruthanka (Thoopul) – Sri Deepa Prakasar Perumal temple, Thiruvallikkeni Sri Parthasarathy Temple , Thiruneermalai - Sri Neervanna Perumal Temple, Thiruvedanthai - Sri Nithya Kalyana Perumal Temple , Thiru Kadalmalai (Mahabalipuram) - Sri Sthala Sayana Perumal Temple, Thiru Nindravoor - Sri Bhatavatsala Perumal Temple, Tiruvallur - Sri Veeraraghava Perumal Temple  ",
       images: [
         "dd8.jpeg",
         "dd7.jpeg",
@@ -729,8 +815,7 @@ const travelDiaries = {
       id: "travel11",
       name: "Kanchipuram - Kamakshi Temples",
       createdAt: "2024-12-05T00:00:00Z",
-      description:
-        "In 2024, I visited the sacred Kamakshi temples in Kanchipuram, where the divine calmness of the deity enveloped my soul. The serene aura of Kanchi Kamakshi filled the surroundings with peace and tranquility. The beauty of the temple tanks and the sight of parrots fluttering around added to the charm of the visit. Standing before the powerful yet graceful deity, I felt a profound sense of gratitude and connection, leaving me spiritually rejuvenated.",
+      description: "Kamakshi is not just a deity; she is an emotion—her divine calmness gently enveloping my soul. The serene aura of Kanchi Kamakshi radiated peace and tranquility, filling the surroundings with an almost ethereal stillness. The temple tanks reflected timeless beauty, while parrots fluttering around added a touch of enchantment to the experience. Standing before the powerful yet graceful goddess, I was overcome with gratitude and a deep spiritual connection. The moment of pradakshanam, chanting the Lalitha Sahasranamam after witnessing the Ujjikala Abhishekam, was soul-stirring. Sitting right before her, watching the sacred abhishekam, my heart melted in devotion. Offering her a saree was a humble gesture of love, but the divine surprise of a lifetime awaited me—she adorned the saree as if accepting my offering. In that moment, I felt elated beyond words—what more could I ask for in life? The journey was made even more special with a darshan at the Adi Kamakshi temple, completing an experience of profound spiritual fulfillment.",
       images: [
         "kanch1.jpeg",
         "kanch2.jpeg",
@@ -756,8 +841,7 @@ const travelDiaries = {
       id: "travel5",
       name: "Murugan Temples - Tamil Nadu",
       createdAt: "2024-09-05T00:00:00Z",
-      description:
-        "Throughout 2024, I embarked on a spiritual journey to visit the revered Murugan temples across Tamil Nadu. November 2024 was a divine month of darshans at Murugan temples during three successive Krithigai days at Kundrathur, Vadapalani, and Tiruporur. The first arthi in Thanga Kavacham left me awe-struck, with tears streaming as I stood close to the deity. This included darshans at the Arupadai Veedu temples, which hold immense significance in Karthikeya's worship. Visits to sacred sites like Siruvapuri, Vadapalani, Tiruthani, Kundrathur, and Marudhamalai enriched my devotion and connection to Lord Murugan. Each temple carried its own divine aura, leaving my soul immersed in blessings and gratitude.",
+      description: "Lord Muruga appeared out of nowhere, enveloping me in his boundless love and leaving me mesmerized by his divine presence. Drawn by devotion, I embarked on a sacred journey across Tamil Nadu to seek the blessings of Lord Murugan. November 2024 became a month of divine grace, with darshans at Murugan temples on three successive Krithigai days—at Kundrathur, Tiruttani, and Siruvapuri. The first arthi in Thanga Kavacham was a moment of sheer awe; standing close to the deity, tears flowed as I was overwhelmed by his radiance. The pilgrimage continued with darshan at Marudamalai, Vadapalani, Tiruporur, and the Arupadai Veedu temple at Besant Nagar, each temple carrying its own sacred energy. Every visit deepened my devotion, immersing my soul in blessings and gratitude, strengthening my eternal connection with Muruga. Learnt Vel Maaral in this process.",
       images: [
         "murugant2.jpeg",
         "murugant1.jpeg",
@@ -773,12 +857,72 @@ const travelDiaries = {
         "murugant12.jpeg",
       ],
     },
+    
+    {
+      id: "travel7",
+      name: "Abode of Lord Shiva",
+      createdAt: "2024-11-15T00:00:00Z",
+      description: "I’ve had the blessing of experiencing darshan of 315 Shiv Lingas in just 11 months, and I’m now eager to complete the darshan of 1008 Shiv Lingas in the days ahead.As I stood before the ancient temples of Ekambareshwarar and Kalilasanathar, I was deeply moved by the sacredness and eternal essence of these revered spaces. The mighty Lingas, standing tall and proud, embodied the devotion of two millennia. In those moments, time seemed to stand still, as though the prayers and energy of countless generations resonated through the very stones. The atmosphere was thick with reverence, and every step I took felt like a connection to something far greater than myself.At the Padal Petra Sthalams, the divine echoes from ancient times seemed to reverberate like a cosmic rhythm, guiding my spirit through the ages. The rich history, unwavering devotion, and exquisite craftsmanship of these temples filled me with awe. I could feel the blessings of those who had walked this path before me, the lineage of seekers whose footprints still lingered. The power of these temples, created by hands and minds long gone, felt alive and tangible. The experience was profoundly humbling and deeply moving—a true darshan that transcended sight, where my heart and soul found peace in the divine presence. Kachi Ekambam, Kachi Anaekathangavadam, Kachi Metrali, Onan kanthan thali, Kachi Karaikadu, Tiruvooral Thakolam, Padi (Thiruvalithayam) Thiruvalleeswarar, Thiruninravur Hridayaleeswarar , Mylapore Kapaleeswarar, Thiruvadisoolam Jnanapureeswarar , Thirumullaivoyal Masilamaneeswarar , Thiruvanmiyur Marundeeswarar, Thiruverkadu Vedapureeswarar , Thiruvottiyur Adipurishwarar & Thayagarajar. Tiruvannamalai Arunachaleshwarar,Tirunelveli Nellaiappar, Ramanathaswamy Rameshwaram, Amruthakadeshwar Kumbakonam,Chidambaram Natarajar.",
+      images: [
+        "shivan1.jpeg",
+        "shivan2.jpeg",
+        "shivan3.jpeg",
+        "shivan4.jpeg",
+        "shivan5.jpeg",
+        "shivan6.jpeg",
+        "shivan7.jpeg",
+        "shivan8.jpeg",
+        "shivan9.jpeg",
+        "shivan10.jpeg",
+        "shivan11.jpeg",
+        "shivan12.jpeg",
+
+      ],
+    },
+    {
+      id: "travel8",
+      name: "Saptha Sthana Sthalams at Mylapore, Chennai",
+      description: "The revered Saptha Sthana Sthalams are seven ancient and sacred Shiva temples nestled in the spiritual heart of Mylapore holds a deeper history than one can imagine. These divine sanctuaries are devoted to the illustrious Saptha Rishis, the venerable and enlightened Munipunkavars. Karaneeswarar Temple, Theerthapaleeswarar Temple, Velleeswarar Temple, Virupaksheeswarar Temple, Valeeswarar Temple, Malleeswarar Temple, and Kapaleeswarar Temple.",
+      createdAt: "2024-11-15T00:00:00Z",
+      images: [
+        "sapthsthal12.jpeg",
+        "sapthsthal2.jpeg",
+        "sapthsthal3.jpeg",
+        "sapthsthal4.jpeg",
+        "sapthsthal5.jpeg",
+        "sapthsthal6.jpeg",
+        "sapthsthal7.jpeg",
+        "sapthsthal8.jpeg",
+        "sapthsthal9.jpeg",
+        "sapthsthal10.jpeg",
+        "sapthsthal11.jpeg",
+        "sapthsthal1.jpeg",
+
+      ],
+    },
+    {
+      id: "travel9",
+      name: "Abode of Sakthi",
+      createdAt: "2024-11-15T00:00:00Z",
+      description: "The three Shakthi temples in Chennai are revered for their identical divine forms. It is considered highly auspicious to have darshan of all three on the same day, especially on a full moon day. The significance is amplified when the full moon falls on a Friday, enhancing spiritual blessings. Ichchaa Sakthi - Thiruvudai AmmanGnaana Sakthi - Vadivudai AmmanKriyaa Sakthi - Kodiyidai Amman. The beauty of the deity in these three Shakthi temples is mesmerizing and radiates divine grace. Adorned in resplendent silk, bedecked with intricate jewelry, and crowned with a shimmering aura, the goddess captivates every devotee with her serene yet powerful presence. Her compassionate eyes exude warmth and blessings, while her gentle smile carries the promise of protection and prosperity. The sacred kumkum on her forehead, the luminous radiance of her golden-hued form, and the intricate floral garlands adorning her add to her ethereal charm. Each detail of her divine manifestation evokes a deep sense of devotion, filling the temple space with an aura of sanctity and peace.",
+      images: [
+        "shakthi2.jpeg",
+
+        "shakthi1.jpeg",
+        "shakthi3.jpeg",
+        "shakthi4.jpeg",
+        "shakthi5.jpeg",
+        "shakthi6.jpeg",
+        "shakthi7.jpeg",
+        "shakthi8.jpeg",
+        "shakthi9.jpeg",
+      ],
+    },
     {
       id: "travel6",
-      name: "Chennai - Temples and Spiritual Connection",
+      name: "A Profound Journey Through Chennai’s Navagraha Temples",
       createdAt: "2024-11-15T00:00:00Z",
-      description:
-        "Exploring the Navagraha temples in Chennai was a deeply spiritual journey. The massive lingas in these temples radiated an awe-inspiring energy. Witnessing the consecration ceremonies across the temples added a profound sense of devotion and connection. The intricate and beautiful temple architecture stood as a testament to the rich cultural heritage, blending seamlessly with the divine aura that enveloped each sacred space. This spiritual experience left me deeply moved and enriched.",
+      description: "Exploring the Navagraha temples in Chennai within 24 hours was a spiritually enriching experience. Each temple, dedicated to a celestial deity, radiated a unique energy, drawing me into its divine embrace. Agatheeswarar Temple – Suryan (Kolapakkam) Somanaadheeswarar Temple – Chandran (Somangalam) Vaidheeswaran Temple – Angaragan (Poovirundhavalli/Poondhamalli) Sundareswarar Temple – Budhan (Kovur) Ramanaadheeswarar Temple – Guru (Porur) Velleeswarar Temple – Sukran (Mangadu) Agatheeswarar Temple – Shaneeswaran (Pozhichalur) - Neelakandeswarar Temple – Kethu (Gerugambakkam) Nageshwarar Temple – Rahu (Kundrathur) The presence of massive lingas in these temples was awe-inspiring, radiating a powerful spiritual energy that was both humbling and uplifting. Witnessing the consecration ceremonies across the temples added another layer of devotion, deepening my connection with the divine. Beyond the spiritual essence, the intricate architecture of these temples stood as a testament to Tamil Nadu’s rich cultural heritage. Every sculpted pillar and sanctum blended seamlessly with the sacred aura, making each visit a transcendental experience. This journey was more than just a pilgrimage—it was a deep, soul-stirring encounter with the divine, leaving me profoundly moved and spiritually enriched.",
       images: [
         "chnai8.jpeg",
         "chnai2.jpeg",
