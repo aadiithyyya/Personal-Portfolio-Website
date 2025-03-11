@@ -45,6 +45,11 @@ const Header = (props) => {
             </NavLink>
           </li>
           <li>
+            <NavLink to="/business-details" style={{ color: theme.text }}>
+              Business
+            </NavLink>
+          </li>
+          <li>
             <NavLink to="/education" style={{ color: theme.text }}>
               Academics
             </NavLink>

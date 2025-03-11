@@ -23,7 +23,8 @@ const greeting = {
   nickname: "Communication Specialist & Life Coach",
   subTitle:
     "Empowering professionals & students to enhance their influence through effective communication and strong interpersonal skills.",
-  resumeLink: "https://www.linkedin.com/in/deepika-s-1a1427177/",
+  resumeLink:
+    "https://drive.google.com/file/d/1_kmmyELEvDu3NhyG8Q6AN_q1GHR411wu/view?usp=sharing",
   portfolio_repository: "https://www.linkedin.com/in/deepika-s-1a1427177/",
   githubProfile: "https://www.linkedin.com/in/deepika-s-1a1427177/",
 };
@@ -33,13 +34,13 @@ const socialMediaLinks = [
 
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/deepika-s-1a1427177/",
+    link: "https://www.linkedin.com/in/deepika-m-1a1427177/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://www.linkedin.com/in/deepika-s-1a1427177/",
+    link: "https://www.linkedin.com/in/deepika-m-1a1427177/",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
@@ -442,6 +443,44 @@ const events = {
       image: "shashinote.jpeg", // Replace with actual image files
     },
     {
+      id: "event17",
+      name:
+        "At the University of Madras post submission of the thesis - Jan 2024",
+      createdAt: "2023-11-10T00:00:00Z",
+      description: "",
+      image: "event17.png",
+    },
+    {
+      id: "event7",
+      name: "Seva Ratna Award - 2010",
+      createdAt: "2023-11-10T00:00:00Z",
+      description:
+        "Was one among the 75 achievers selected for their service to society. Asthiga samajam conferred a title Seva Ratna for my consistent contribtion in addressing civic and social issues of the neighbourhood.",
+      image: "event7.jpeg",
+    },
+    {
+      id: "event77",
+      name: "Seva Ratna Award - 2010",
+      createdAt: "2023-11-10T00:00:00Z",
+      image: "svrtna.jpeg",
+    },
+    {
+      id: "event6",
+      createdAt: "2023-11-10T00:00:00Z",
+      name:
+        "Compered a Navrathri contest event representing Talk Media (Hosted a 2-day event)",
+      image: "event6.jpeg",
+    },
+
+    {
+      id: "event8",
+      description:
+        "With the Founder Ditector of NewsToday/ Talk Media Mr TR Jawahar and singer Soumya.",
+      createdAt: "2023-11-10T00:00:00Z",
+      name: "At an event - TR Jawahar & Singer Soumya.",
+      image: "event8.jpeg",
+    },
+    {
       id: "event15",
       name: "Inauguration function at Vilakku Kadai - Porur",
       createdAt: "2023-11-10T00:00:00Z",
@@ -463,6 +502,47 @@ const events = {
       description: "",
       image: "event31.jpeg", // Replace with the actual image file
     },
+    {
+      id: "event20",
+      name: "At the University of Britto's, with Iman Annachi",
+      createdAt: "2023-11-10T00:00:00Z",
+      description: "",
+      image: "iman.jpg",
+    },
+    {
+      id: "event19",
+      name: "With Actor Abhinaya",
+      createdAt: "2023-11-10T00:00:00Z",
+      description:
+        "Abhinaya, with a thousand expressions, an incredibly inspiring and unique experience with someone who, despite being deaf and mute, communicated with clarity and vibrancy. Her bouncing energy and a refreshing mindset and ability to express herself transcended the usual means of communication. Met here at her residence in Hyderabad.",
+      image: "event19.jpeg",
+    },
+    {
+      id: "event4",
+      name: "Conversation with Thenkatchi Ko Swaminathan",
+      createdAt: "2023-11-10T00:00:00Z",
+      description:
+        "Conversation with Thenkatchi Ko Swaminathan, the world famous story teller from AIR. The' Indru oru thagaval' celebrity. Millions of people across Tamil Nadu woke up to his voice every morning for several years. The five-minute programme, presented in simple colloquial Tamil, the common man could relate to and punctuated by anecdotes meant to make you smile and ponder, was broadcast without a break from 1988 until his retirement in 2002. Many still remember him for his popular daily programme Indru oru Thagaval. Meeting such a distinguished individual was an incredibly memorable and rewarding experience. An accomplished Tamil orator, television personality, and author, with a wealth of knowledge and experience that spanned various fields. The fact that he had served as Deputy Director of All India Radio, Chennai speaks to his stature in the world of media and communications, particularly in the Tamil cultural and linguistic community.",
+      image: "event4.jpeg",
+    },
+    {
+      id: "event20",
+      name:
+        "Conversation with V Kalyanam (Mahatma Gandhi's Personal Secretary)",
+      createdAt: "2023-11-10T00:00:00Z",
+      description:
+        "The conversation was enlightening, revealing new facts about Gandhiji, including his life at Sabarmati Ashram, his use of mud packs for good health, fasting techniques, and other practices he followed. Saw hundreds of postcards sent to Gandhi from all over the world, mementoes, charka and much more. The house felt like a museum, with Gandhian principles evident everywhere. His humility and respect towards us were remarkable. Additionally, his terrace garden, active lifestyle well into his 80s, and sense of humour left a lasting impression.",
+      image: "event20.jpeg",
+    },
+    {
+      id: "event18",
+      name: "Interviewing Padmashri, Sangeetha Kalanidhi Dr. TK Murthy",
+      createdAt: "2023-11-10T00:00:00Z",
+      description:
+        "He has an illustrious career of a musician, a legendary accompanist, who has performed in over 15,000 concerts spanning an incredible 100 years. This individual has had the honour of accompanying several of the most respected figures in Indian classical music, such as Harikesanallur Muthiah Bhagavatar, Ariyakudi Ramanuja Iyengar, Chembai Vaidhyanatha Bagavathar, Semmangudi Srinivasa Iyer, M. S. Subbulakshmi, Madurai Somasundaram, D. K. Jayaraman, M. Balamuralikrishna, Kunnakudi Vaidyanathan, K.J.Yesudas, Lalgudi Jayaraman, T. V. Sankaranarayanan and U. Srinivas. Having a conversation with him was a blessing of a lifetime. His energy and discipline in practicing the art were truly remarkable. The conversation provided valuable insights into his connection with Kanchi Mahaperiyavar, his early years, and his dedication to music. He mentored prominent figures in the field of music and instruments, and even in his late 80s, he continued practicing the mridangam. His habit of early rising greatly impacted his life.",
+      image: "event18.png", // Replace with the actual image file
+    },
+
     {
       id: "event32",
       name: "Corporate Trainer Certification",
@@ -543,14 +623,7 @@ const events = {
         "An interview with Veteran Nair Raman, close associate of Director Balachander. He had staged more than 3000 stage plays.",
       image: "event3.jpeg",
     },
-    {
-      id: "event4",
-      name: "Conversation with Thenkatchi Ko Swaminathan",
-      createdAt: "2023-11-10T00:00:00Z",
-      description:
-        "Conversation with Thenkatchi Ko Swaminathan, the world famous story teller from AIR. The' Indru oru thagaval' celebrity. Millions of people across Tamil Nadu woke up to his voice every morning for several years. The five-minute programme, presented in simple colloquial Tamil, the common man could relate to and punctuated by anecdotes meant to make you smile and ponder, was broadcast without a break from 1988 until his retirement in 2002. Many still remember him for his popular daily programme Indru oru Thagaval. Meeting such a distinguished individual was an incredibly memorable and rewarding experience. An accomplished Tamil orator, television personality, and author, with a wealth of knowledge and experience that spanned various fields. The fact that he had served as Deputy Director of All India Radio, Chennai speaks to his stature in the world of media and communications, particularly in the Tamil cultural and linguistic community.",
-      image: "event4.jpeg",
-    },
+
     {
       id: "event5",
       name: "At Officers Training Academy - Meenambakkam",
@@ -559,54 +632,7 @@ const events = {
         "Participated in the parade at the Indian Army's Officers Training Academy (OTA), which prepares officers for the Short Service Commission (SSC). Could experience the presence and look of the tank that rolled across hostile terrain during the two world wars, a cannon that blitzed foes during the India-Pakistan conflict in 1965, and other weapons were on display at the vintage museum.A conversation with the Lieutenant unfolded the facts and history behind the collections at the museum.",
       image: "event5.jpeg",
     },
-    {
-      id: "event18",
-      name: "Interviewing Padmashri, Sangeetha Kalanidhi Dr. TK Murthy",
-      createdAt: "2023-11-10T00:00:00Z",
-      description:
-        "He has an illustrious career of a musician, a legendary accompanist, who has performed in over 15,000 concerts spanning an incredible 100 years. This individual has had the honour of accompanying several of the most respected figures in Indian classical music, such as Harikesanallur Muthiah Bhagavatar, Ariyakudi Ramanuja Iyengar, Chembai Vaidhyanatha Bagavathar, Semmangudi Srinivasa Iyer, M. S. Subbulakshmi, Madurai Somasundaram, D. K. Jayaraman, M. Balamuralikrishna, Kunnakudi Vaidyanathan, K.J.Yesudas, Lalgudi Jayaraman, T. V. Sankaranarayanan and U. Srinivas. Having a conversation with him was a blessing of a lifetime. His energy and discipline in practicing the art were truly remarkable. The conversation provided valuable insights into his connection with Kanchi Mahaperiyavar, his early years, and his dedication to music. He mentored prominent figures in the field of music and instruments, and even in his late 80s, he continued practicing the mridangam. His habit of early rising greatly impacted his life.",
-      image: "event18.png", // Replace with the actual image file
-    },
-    {
-      id: "event19",
-      name: "With Actor Abhinaya",
-      createdAt: "2023-11-10T00:00:00Z",
-      description:
-        "Abhinaya, with a thousand expressions, an incredibly inspiring and unique experience with someone who, despite being deaf and mute, communicated with clarity and vibrancy. Her bouncing energy and a refreshing mindset and ability to express herself transcended the usual means of communication. Met here at her residence in Hyderabad.",
-      image: "event19.jpeg",
-    },
-    {
-      id: "event20",
-      name:
-        "Conversation with V Kalyanam (Mahatma Gandhi's Personal Secretary)",
-      createdAt: "2023-11-10T00:00:00Z",
-      description:
-        "The conversation was enlightening, revealing new facts about Gandhiji, including his life at Sabarmati Ashram, his use of mud packs for good health, fasting techniques, and other practices he followed. Saw hundreds of postcards sent to Gandhi from all over the world, mementoes, charka and much more. The house felt like a museum, with Gandhian principles evident everywhere. His humility and respect towards us were remarkable. Additionally, his terrace garden, active lifestyle well into his 80s, and sense of humour left a lasting impression.",
-      image: "event20.jpeg",
-    },
-    {
-      id: "event6",
-      createdAt: "2023-11-10T00:00:00Z",
-      name:
-        "Compered a Navrathri contest event representing Talk Media (Hosted a 2-day event)",
-      image: "event6.jpeg",
-    },
-    {
-      id: "event7",
-      name: "Seva Ratna Award - 2010",
-      createdAt: "2023-11-10T00:00:00Z",
-      description:
-        "Was one among the 75 achievers selected for their service to society. Asthiga samajam conferred a title Seva Ratna for my consistent contribtion in addressing civic and social issues of the neighbourhood.",
-      image: "event7.jpeg",
-    },
-    {
-      id: "event8",
-      description:
-        "With the Founder Ditector of NewsToday/ Talk Media Mr TR Jawahar and singer Soumya.",
-      createdAt: "2023-11-10T00:00:00Z",
-      name: "At an event - TR Jawahar & Singer Soumya.",
-      image: "event8.jpeg",
-    },
+
     {
       id: "event10",
       name: "With Hema Veeraraghavan, a Veena vidwan.",
@@ -644,14 +670,7 @@ const events = {
         "With dancer Dakshayani Ramachandran & choreographer Master Raghuram's sister.",
       image: "event16.jpeg",
     },
-    {
-      id: "event17",
-      name:
-        "At the University of Madras post submission of the thesis - Jan 2024",
-      createdAt: "2023-11-10T00:00:00Z",
-      description: "",
-      image: "event17.png",
-    },
+
     {
       id: "event19",
       name: "Launch Event of the 'Impress' magazine.",
@@ -660,13 +679,6 @@ const events = {
       description:
         "Impress is a monthly magazine, I served as an editor for an year over there.",
       image: "impress.jpg",
-    },
-    {
-      id: "event20",
-      name: "At the University of Britto's, with Iman Annachi",
-      createdAt: "2023-11-10T00:00:00Z",
-      description: "",
-      image: "iman.jpg",
     },
   ],
 };
@@ -682,6 +694,31 @@ const travelHeader = {
 const travelDiaries = {
   data: [
     {
+      id: "travel7",
+      name: "Once in an Eternity Experience - MahaKumbh 2025",
+      createdAt: "2024-12-15T00:00:00Z",
+      description:
+        "Mahakumbh was an emotion—pure, intense, and beyond words. A surge of high energy, an unstoppable bhakti wave that carried millions in its divine embrace. The chants of Har Har Mahadev echoed ceaselessly, filling the air with devotion. Mind-blowing yet exhausting, the experience etched itself into my soul—47 kilometers of walking in three days, each step fueled by faith. Never again in this lifetime can I receive something so profound.Kudos to Modiji and Yogiji for their impeccable arrangements and unwavering efforts. The scale, discipline, and devotion with which Mahakumbh was managed were unparalleled. No other country or its leaders could have made this happen with such precision and grandeur. A true testament to India's spiritual strength and organizational excellence!",
+      images: [
+        "mahakumbh15.jpeg",
+        "mahakumbh17.jpeg",
+        "mahakumbh5.jpeg",
+        "mahakumbh6.jpeg",
+        "mahakumbh7.jpeg",
+        "mahakumbh8.jpeg",
+        "mahakumbh9.jpeg",
+        "mahakumbh11.jpeg",
+        "mahakumbh12.jpeg",
+        "mahakumbh13.jpeg",
+        "mahakumbh14.jpeg",
+        "mahakumbh1.jpeg",
+        "mahakumbh16.jpeg",
+        "mahakumbh4.jpeg",
+        "mahakumbh18.jpeg",
+        "mahakumbh19.jpeg",
+      ],
+    },
+    {
       id: "travel1",
       name: "Isha - Spiritual Awakening and Retreats",
       createdAt: "2024-03-01T00:00:00Z",
@@ -695,6 +732,7 @@ const travelDiaries = {
         "isha5.jpeg",
       ],
     },
+
     {
       id: "travel4",
       name: "A Divine Sojourn to Kashi Vishwanath: A Life-Changing Experience",

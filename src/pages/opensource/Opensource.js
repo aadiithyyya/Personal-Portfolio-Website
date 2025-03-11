@@ -8,8 +8,22 @@ import ImageCarousel from "../../components/ImageCarousel/ImageCarousel";
 import "./Opensource.css";
 
 class Travel extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      expandedId: null, // Tracks which description is expanded
+    };
+  }
+
+  toggleDescription = (id) => {
+    this.setState((prevState) => ({
+      expandedId: prevState.expandedId === id ? null : id,
+    }));
+  };
+
   render() {
-    const theme = this.props.theme;
+    const { theme } = this.props;
+    const { expandedId } = this.state;
 
     return (
       <div className="projects-main">
@@ -35,24 +49,39 @@ class Travel extends Component {
           </Fade>
 
           <div className="events-list">
-            {travelDiaries.data.map((travel) => (
-              <div key={travel.id} className="event-card">
-                <div className="event-image">
-                  <ImageCarousel images={travel.images} altText={travel.name} />
+            {travelDiaries.data.map((travel) => {
+              const isExpanded = expandedId === travel.id;
+              const shortDescription =
+                travel.description.substring(0, 150) + "...";
+
+              return (
+                <div key={travel.id} className="event-card">
+                  <div className="event-image">
+                    <ImageCarousel
+                      images={travel.images}
+                      altText={travel.name}
+                    />
+                  </div>
+                  <div className="event-details">
+                    <h2 className="event-title" style={{ color: theme.text }}>
+                      {travel.name}
+                    </h2>
+                    <p
+                      className="event-description"
+                      style={{ color: theme.secondaryText }}
+                    >
+                      {isExpanded ? travel.description : shortDescription}
+                    </p>
+                    <button
+                      className="read-more-btn"
+                      onClick={() => this.toggleDescription(travel.id)}
+                    >
+                      {isExpanded ? "Read Less" : "Read More"}
+                    </button>
+                  </div>
                 </div>
-                <div className="event-details">
-                  <h2 className="event-title" style={{ color: theme.text }}>
-                    {travel.name}
-                  </h2>
-                  <p
-                    className="event-description"
-                    style={{ color: theme.secondaryText }}
-                  >
-                    {travel.description}
-                  </p>
-                </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
